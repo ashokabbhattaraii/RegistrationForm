@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(26, 25, 25);
+    background-color: rgb(0, 120, 224);
+      
 }
 
 .container{
@@ -14,17 +15,19 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: purple;
+    background-color: rgb(30, 139, 234);
     margin: 150px auto;
     border-radius: 6px;
     color: white;
-     box-shadow: 2px 2px 20px rgb(236, 27, 236);
+     box-shadow: 2px 2px 20px rgb(45, 144, 232);
+     
+   
     
 }
 .container h1{
     margin-left: 10px;
     font-size: 35px;
-    box-shadow: 2px 2px 20px rgb(236, 27, 236);
+   
     padding: 0 5px;
     border: none;
     border-radius: 6px;
@@ -51,27 +54,32 @@ form input{
     margin: 10px 25px;
     width: 90%;
      /* Added this line */
-    border: 2px solid rgb(255, 6, 255);
+    border: 2px solid rgb(0, 120, 224);
     outline: none;
     border-radius: 6px;
-    box-shadow: 2px 2px 20px rgb(236, 27, 236);
+    box-shadow: 2px 2px 20px rgb(79, 151, 215);
 
+  
      
-     
+}
+#userConatiner,
+#logoutBtn {
+  margin-left: auto; 
 }
 form button{
     padding: 10px;
     width: 90%;
     margin-left: 25px;
-    border: 2px solid rgb(255, 6, 255);
+    border: 2px solid rgb(101, 171, 233);
     outline: none;
     border-radius: 6px;
      cursor: pointer;
      font-size: 20px;
      font-weight: bold;
-     background-color: purple;
+     background-color: rgb(0, 120, 224);
      color: white;
 }
+form 
 span{
     margin-left: 10px;
     font-size: 1.2rem;
@@ -90,4 +98,22 @@ span{
     margin-top: 10px;
     font-size: 1.2rem;
     font-weight: 700;
+}
+.backBtn{
+    padding: 10px 30px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(30, 139, 234);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.backBtn img{
+    margin-right: 8px;
 }

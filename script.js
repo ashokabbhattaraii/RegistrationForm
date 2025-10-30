@@ -51,3 +51,9 @@ if (!users) {
         msg.style.color="green"
     }
 })
+
+
+const backBtn = document.querySelector('.backBtn');
+backBtn.addEventListener('click',()=>{
+    window.location.href='Home.html'
+})
